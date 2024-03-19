@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faedcd;
+}
+
+.myfont {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.name {
+    margin-bottom: .5rem;
+    opacity: 50%;
+    color: rgb(99, 99, 99);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: .5px solid black;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    background-color: #e9edc9;
+    border-radius: 1rem;
+}
+
+#amt {
+    height: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem 0px;
+    text-align: center;
+    border: .2px solid black;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.icon {
+    margin: 5px 1rem;
+    font-size: 25px;
+}
+
+.flag-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.block {
+    background-color: #ccd5ae;
+    padding: .5rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+img {
+    width: 2rem;
+}
+
+label {
+    height: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.dd {
+    height: 1.8rem;
+}
+
+.description {
+    height: 2.5rem;
+    line-height: 1.7rem;
+    /* border: 2px solid rgb(99, 99, 99); */
+    width: 20vw;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: .5rem;
+    margin-top: .5rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+button {
+    margin: .6rem 0px;
+    font-size: 20px;
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(192, 192, 192);
+    border: 2px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
