@@ -182,8 +182,7 @@ btn.addEventListener("click", async (evt) => {
     data = await response.json();
     let toCon = toCur.value.toUpperCase();
     let rate = data.rates[toCon];
-
-    des.textContent = rate * amtVal;
+    des.textContent = (rate * amtVal).toFixed(4);
 });
 
 
